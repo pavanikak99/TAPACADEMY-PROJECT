@@ -1,0 +1,95 @@
+#Ultraboost{
+    position: absolute;
+    top: 70%;
+    left:10%;
+    font-weight: 700;
+    color: #B99470;
+    font-family: elegant;
+    
+}
+
+#shopbutton{
+    position: absolute;
+    top: 75%;
+    left:11%;
+    padding: 10px;
+    font-weight: 700;
+    font-size: large;
+    font-family: elegant;
+    
+}
+.hero-section{
+    position: relative;
+    height:100%;
+    width:100%;
+}
+.img-text{
+    width:100%;
+    height:auto;
+    display:block;
+    z-index: 1;
+}
+
+#shopbutton:hover{
+    border-radius: 5px;
+    background-color:#C0C78C;
+}
+
+.hero-section img:hover{
+    border:5px solid #A6B37D;
+    border-radius: 5px;
+}
+.heading{
+    color:black;
+    text-align: center;
+    font-weight: 500;
+    font-size: xx-large;
+    margin-top: 100px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding:35px;
+    justify-content: flex-start;
+    margin: 100px auto;
+}
+.products-card{
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px gray;
+    overflow: hidden;
+    transition: transform 0.8s;
+    flex: 1 1 300px; /* card size in page*/
+    max-width:500px;   
+}
+.products-card:hover{
+    transform: translateY(-70px);
+    border:10px solid #A6B37D;
+}
+.products-card img{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+}
+.product-info{
+    padding:15px;
+    flex:1;
+
+}
+.product-info h4{
+    font-size: x-large;
+}
+.products-card button{
+    padding:10px;
+    background-color: #C0C78C;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width:100%
+    
+}
+.products-card button:hover{
+    background-color: #B99470;
+}
+
